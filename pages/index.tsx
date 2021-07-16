@@ -26,7 +26,7 @@ export default function Home() {
             </Head>
 
             <div className="h-screen relative overflow-hidden flex flex-col-reverse md:flex-row bg-gradient-to-b from-blue-50 to-blue-100">
-                <div className="z-10 flex-1 w-full max-w-lg py-8 bg-white md:py-16 flex items-center">
+                <div className="z-10 flex-1 w-full md:max-w-lg py-8 bg-white md:py-16 flex items-center">
                     <div className="w-full max-w-md px-4 mx-auto sm:px-6 md:px-8">
                         {isRegistered ? (
                             <div className="flex flex-col items-center p-8 space-y-4">
